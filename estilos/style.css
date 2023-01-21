@@ -1,0 +1,154 @@
+*{
+  background: #8fc7e3;
+  font-family: 'Indie Flower', cursive;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+
+}
+
+.logo{
+  padding-top: 10px;
+  margin-left: 5px;
+  width: 10%;
+}
+
+main{
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.text-area{
+  color: #0A3871;
+  height: 275px;
+  border: none;
+  margin-top: 45px;
+  text-transform: lowercase;
+}
+
+::placeholder{
+  color: #0A3871;
+}
+
+.text-area:focus{
+  outline: none;
+}
+
+.mensaje{  
+  background: white;
+  background-image: url('../imagenes/oops.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  border: none;
+  border-radius: 24px;
+  color: #0A3871;
+  height: 65%;
+  margin-left: 45px;
+  margin-top: 0px;
+  padding-top: 9px;
+  padding-right: 9px;
+  padding-left: 9px;
+  padding-bottom: 5px;
+  margin-right: 40px;
+  position: relative; 
+}
+
+.mensaje:focus{
+  outline: none;
+}
+.mensaje-vacio img{
+  margin-left: 65px;
+  bottom: 280px;
+  position: relative;
+  background-color: white;
+}
+.botones{
+  display: flex;
+  
+  margin-top: 14px;
+  
+  
+}
+.btn-reset{
+  background: #D8Dfe8;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  color: #0A3871;
+  height: 53px;
+  margin-left: 0px;
+  width: 200px;
+  font-size: 25px;
+}
+.btn-encriptar{
+  background-color: #0A3871;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  color: #f5f7f8;
+  height: 53px;
+  margin-left: 14px;
+  width: 200px;
+  font-size: 25px;
+
+}
+.btn-desencriptar{
+  background: #D8Dfe8;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  color: #0A3871;
+  cursor: pointer;
+  height: 53px;
+  margin-left: 14px;
+  width: 200px;
+  font-size: 25px;
+}
+
+#seccion-copiar{
+  margin-inline-end: 10px;
+}
+
+.btn-reset-mensaje{
+  border: 1px solid #0A3871;
+  background-color: #0A3871;
+  border-radius: 24px;
+  color: #f5f7f8;
+  cursor: pointer;
+  height: 53px;
+  margin-right: 50px;
+  margin-left: 95px;
+  margin-top: 5px;
+  top: 379px;
+  position: absolute;
+  width: 240px;
+  font-size: 25px;
+}
+.btn-copiar{
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  color: #0A3871;
+  cursor: pointer;
+  height: 53px;
+  margin-right: 50px;
+  margin-left: 95px;
+  margin-top: 70px;
+  top: 375px;
+  position: absolute;
+  width: 240px;
+  font-size: 25px;
+}
+.informacion{
+  color: #02827e;
+  font-size: 18px;
+  display: flex;
+  text-shadow: rgb(106, 121, 103) 1px 1px;
+}
